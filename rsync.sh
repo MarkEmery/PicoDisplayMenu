@@ -1,0 +1,1 @@
+rshell -f rsync.cmd
