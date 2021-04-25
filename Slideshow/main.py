@@ -9,8 +9,6 @@
 width = display.get_width()
 height = display.get_height()
 
-display.set_backlight(1.0)
-
 imgFiles = []
 
 while True:

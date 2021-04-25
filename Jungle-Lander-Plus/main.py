@@ -10,7 +10,6 @@ import random
 # display.init(display_buffer)
 
 
-display.set_backlight(1.0)
 restore = open("BACKGROUND.IMG", 'rb')
 restore.readinto(display_buffer)
 restore.close()

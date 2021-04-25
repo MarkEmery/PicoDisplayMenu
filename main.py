@@ -31,7 +31,10 @@ height = display.get_height()
 
 display_buffer = bytearray(width * height * 2) # 2-bytes per pixel (RGB565)
 display.init(display_buffer)
-display.set_backlight(1.0)
+f = open("/brightness.val", "r")
+brightness=float(f.read())
+f.close()
+display.set_backlight(brightness)
 
 screen_buffer = framebuf.FrameBuffer(display_buffer, width, height, framebuf.RGB565) # A pointer so we can blit into our display_buffer.
 background = framebuf.FrameBuffer(bytearray(width * height * 2), width, height, framebuf.RGB565)

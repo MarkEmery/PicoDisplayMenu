@@ -5,7 +5,6 @@ sensor_temp = machine.ADC(4)
 conversion_factor = 3.3 / (65535) 
 
 # Set the display backlight to 50%
-display.set_backlight(0.5)
 display.set_pen(0, 0, 0)
 display.clear()
 

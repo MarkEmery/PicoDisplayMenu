@@ -8,7 +8,6 @@ width = display.get_width()
 height = display.get_height()
 
 # Set the display backlight to 50%
-display.set_backlight(0.5)
 display.set_pen(0, 0, 0)
 display.clear()
 display.update()

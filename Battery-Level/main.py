@@ -9,7 +9,6 @@ import picodisplay as display       # change "picodisplay" to "picoexplorer" if 
 # # Set up and initialise display
 # buf = bytearray(display.get_width() * display.get_height() * 2)
 # display.init(buf)
-display.set_backlight(0.8)          # comment out this line if you have a Pico Explorer as it doesn't have a controllable backlight
 
 vsys = ADC(29)              # reads the system input voltage
 charging = Pin(24, Pin.IN)  # reading GP24 tells us whether or not USB power is connected
