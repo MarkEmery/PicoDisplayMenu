@@ -79,6 +79,6 @@ exec(open('main.py').read())
 
 ^^^ The exec should get the code running, all print() statements going to the console.
 
-If you need help with the code, find me on @_MARKSE_ on Instagram or @_MARKSE on Twitter.
+If you need help with the menu code, find me on @_MARKSE_ on Instagram or @_MARKSE on Twitter. For more general support, check out https://forums.pimoroni.com/
 
 Enjoy! And try to pass the coding bug on. To a kid, if possible.
